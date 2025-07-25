@@ -23,3 +23,16 @@ let result3 = depList.find((x) => x == 4);
 console.log(result3);
 let sum = depList.reduce((x, y) => x + y);
 console.log(sum);
+let c = 2 /* Color.Blue */;
+//tuples
+let swapnummber;
+function swapper(x, y) {
+    return [y, x];
+}
+swapnummber = swapper(10, 20);
+swapnummber[0];
+swapnummber[1];
+//any
+let department;
+department = "IT";
+department = 69;
